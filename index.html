@@ -132,8 +132,35 @@
  .novidades h2 {
      color: black;    
      font-size: 27px;   
-     margin-bottom: 25px;
+     margin-bottom: 20px;
+     margin-top: 0;
  }
+
+    @media (max-width: 768px) {
+     .container,
+     .novidades,
+     .container-servicos {
+         width: 95%;
+         margin: 10px auto;
+         padding: 15px;
+     }
+     .conteudo {
+         flex-direction: column;
+     }
+     .conteudo img,
+     .servico img {
+         width: 100%;
+         height: auto;
+     }
+     .texto {
+         font-size: 17px;
+     }
+     h1 { font-size: 22px; }
+     h2 { font-size: 19px; margin-top: 20px; }
+     p  { font-size: 16px; }
+     .imagem-novidade {
+         width: 100%;
+     }
 
 </style>
 </head>
